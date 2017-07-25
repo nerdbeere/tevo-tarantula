@@ -1,1 +1,1 @@
-# 🕷tevo-tarantula
+# 🕷 tevo-tarantula
