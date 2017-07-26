@@ -83,7 +83,7 @@
 #define PAUSE_END_COMMANDS ""
 #define SHARED_EXTRUDER_HEATER 0
 #define EXT0_X_OFFSET 0
-#define EXT0_Y_OFFSET 0
+#define EXT0_Y_OFFSET 6400
 #define EXT0_Z_OFFSET 0
 #define EXT0_STEPS_PER_MM 376
 #define EXT0_TEMPSENSOR_TYPE 1
@@ -289,8 +289,8 @@ It also can add a delay to wait for spindle to run on full speed.
 #define X_MAX_LENGTH 200
 #define Y_MAX_LENGTH 200
 #define Z_MAX_LENGTH 200
-#define X_MIN_POS 0
-#define Y_MIN_POS 0
+#define X_MIN_POS -10
+#define Y_MIN_POS -53
 #define Z_MIN_POS 0
 #define DISTORTION_CORRECTION 0
 #define DISTORTION_CORRECTION_POINTS 5
@@ -389,7 +389,7 @@ It also can add a delay to wait for spindle to run on full speed.
 #define ACK_WITH_LINENUMBER 1
 #define WAITING_IDENTIFIER "wait"
 #define ECHO_ON_EXECUTE 1
-#define EEPROM_MODE 1
+#define EEPROM_MODE 0
 #undef PS_ON_PIN
 #define PS_ON_PIN -1
 #define JSON_OUTPUT 0
@@ -583,10 +583,10 @@ Values must be in range 1..255
             "selectCommands": "",
             "deselectCommands": "",
             "xOffset": 0,
-            "yOffset": 0,
+            "yOffset": 80,
             "zOffset": 0,
             "xOffsetSteps": 0,
-            "yOffsetSteps": 0,
+            "yOffsetSteps": 6400,
             "zOffsetSteps": 0,
             "stepper": {
                 "name": "Extruder 0",
