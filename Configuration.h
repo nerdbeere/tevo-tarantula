@@ -289,7 +289,7 @@ It also can add a delay to wait for spindle to run on full speed.
 #define X_MAX_LENGTH 200
 #define Y_MAX_LENGTH 200
 #define Z_MAX_LENGTH 200
-#define X_MIN_POS -10
+#define X_MIN_POS 10
 #define Y_MIN_POS -53
 #define Z_MIN_POS 0
 #define DISTORTION_CORRECTION 0
